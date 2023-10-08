@@ -1,0 +1,18 @@
+Renomear arquivos e pastas
+
+Métodos `rename()` e `replace()`
+
+import os
+
+os.replace("texto02.txt", "texto20.txt")
+
+os.replace("pasta01", "pasta10")
+
+Remover arquivos e pastas
+
+Método `remove()`
+os.remove('c:\\Users\\vinil\\Downloads\\modulo10_arquivos\\modulo_os\\pasta10\\texto20.txt')
+
+Executando comandos no Sistema Operacional
+
+os.system("mkdir teste")
